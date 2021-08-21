@@ -51,21 +51,20 @@
             </ul>
         </nav>
     </div>
-    <button onclick="topFunction()" title="Go to top" id="myBtn"><i class="fa fa-chevron-circle-up fa-4x" aria-hidden="true"></i></button>
         <div id="bacvid">
                 <video width="100%" min-height="100%" autoplay loop> 
                     <source src="gallery/video-1.mp4" type="video/mp4">
                 </video>
-        </div>
-                <div class="text mt-4 mb-4 container">
-                    <h2 style="color:#ff8000;">Make it happen</h2>
-                        <h3><q>Neti balale repati pourulu</q></h3>
+                <div class="text p-4 container">
+                    <h2 style="color:#008000;">Make it happen</h2>
+                        <h3 style="color:#0a062c;"><q>Neti balale repati pourulu</q></h3>
                         <p style="color: #0000ff;">
                                 It is 75th Independence Day.Our great leaders sacrificed their life for Desh ki Azad.
                         </p>
                         <p style="color: #0000ff;">Every student must take them inspirational and lead the future generations in right path</p>
                         <button class="btn btn-light">Register Now</button>
                 </div>
+        </div>        
 </header> 
     <section id="List">
             <div class="container">
@@ -217,28 +216,5 @@
             <p class="text-center p-2 mt-4">Designed by Macharla Divya</p>
         </footer>
     </section>
-
-<!--Javascript-->
-
-<script>
-        var mybutton=document.getElementById("myBtn");
-        window.onscroll=function() {scrollFunction()};
-
-   function scrollFunction(){
-    if(document.body.scrollTop>20 || document.documentElement.scrollTop>20){
-        mybutton.style.display="block";
-    }
-    else{
-       mybutton.style.display="none";     
-    }
-  }
-  function topFunction(){
-    document.body.scrollTop= 0;
-  }
-/*
-  function topFunction(){
-      window.scrollTo(0,0);
-}*/
-</script>
 </body>
 </html>
